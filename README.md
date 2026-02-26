@@ -49,7 +49,7 @@ Método: GET
 
 Resposta esperada: "API funcionando"
 
-Gerenciamento de Usuários (Postman/Insomnia)
+Gerenciamento de Usuários Postman
 Criar Usuário
 
 Método: POST
@@ -65,6 +65,7 @@ JSON
   "senha": "123456",
   "perfil_nome": "Admin"
 }
+
 Listar Usuários
 
 Método: GET
