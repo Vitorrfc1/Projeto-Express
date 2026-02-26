@@ -16,7 +16,7 @@ Bash
 
 git clone url
 
-cd express-crud-orm
+cd Projeto-Express-main
 
 # Instalar dependências
 
