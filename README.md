@@ -19,13 +19,18 @@ git clone url
 cd express-crud-orm
 
 # Instalar dependências
+
 npm install
+
 2. Configuração do Banco de Dados
+
 Crie um arquivo .env na raiz do projeto com a seguinte variável:
 DATABASE_URL="postgresql://USUARIO:SENHA@localhost:5432/NOME_DO_BANCO"
 
-3. Inicialização do Prisma e Servidor
+4. Inicialização do Prisma e Servidor
+
 Bash
+
 # Gerar o Prisma Client
 npx prisma generate
 
@@ -33,11 +38,16 @@ npx prisma generate
 npx prisma db push
 
 # Iniciar servidor (Desenvolvimento ou Produção)
+
 npm run dev
+
 # ou
+
 node src/server.js
 Testes da API
+
 Verificação de Status
+
 URL: http://localhost:3000/
 
 Método: GET
