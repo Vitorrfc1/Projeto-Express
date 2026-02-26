@@ -41,11 +41,6 @@ npx prisma db push
 
 npm run dev
 
-# ou
-
-node src/server.js
-Testes da API
-
 Verificação de Status
 
 URL: http://localhost:3000/
