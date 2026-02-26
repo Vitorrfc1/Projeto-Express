@@ -8,10 +8,14 @@ Versão do Express - 4.22.1
 Como Rodar o Projeto 
 
 Guia de Execução
-1. Preparação do Ambiente /br
+1. Preparação do Ambiente
+
 Bash
+
 # Clonar repositório e acessar pasta
+
 git clone url
+
 cd express-crud-orm
 
 # Instalar dependências
